@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9e8731ba-df22-4b5e-b627-b8fff4f962f8">
+  <name>TableModel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель таблицы</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7da1c7a0-734d-490a-882b-2b40e4151472"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4de5b8b8-ddde-4813-91c0-b193983cbc2d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="92ec84e4-4c2d-47d7-a670-187a36ea8d19"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c067f940-c663-49c3-b76f-ab705119af23"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c6e94880-b834-48b9-9020-87368883c47d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a5bae265-2d28-4666-9f55-5e3254368a9a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4dcfed1f-8039-4963-935f-7495ca66dc31"/>
+  <namePrefix>tm</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <languages uuid="975697ec-6c15-47b9-8fb0-3df4999056bb">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.МодельТаблицы</subsystems>
+  <dataProcessors>DataProcessor.МодельТаблицы</dataProcessors>
+</mdclass:Configuration>
